@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg"  width="80">
-    <h2 align="center">3-column preview card component solution</h2>
+    <h2 align="center">Profile card component solution</h2>
     <p align="center">
         <a href="https://www.frontendmentor.io"><strong>Frontend Mentor Challenge</strong></a>
         <br />
@@ -15,7 +15,7 @@
 <div align="center">
   <!-- Profile -->
   <a href="https://www.frontendmentor.io/profile/rahimi-1997">
-    <img src="https://img.shields.io/badge/Profile-Raha%20Rahimi-07043B?style=for-the-badge&logo=frontendmentor" alt="Raha Profile">
+    <img src="https://img.shields.io/badge/Profile-Fateme%20Rahimi-07043B?style=for-the-badge&logo=frontendmentor" alt="Fateme Profile">
   </a>
 
 </div>
