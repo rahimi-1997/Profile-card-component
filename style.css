@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --background-card: hsl(0, 0%, 100%);
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: var(--Very-dark-desaturated-blue);
+    
+}
+.main{
+    background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-repeat: no-repeat;
+    background-color: var(--Dark-cyan);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: var(--background-card);
+    text-align: center;
+    max-width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+.card-image{
+    width: 400x;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+.card-profile img{
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 5px solid #fff;
+}
+.card-content{
+    margin-top: 20px;
+    line-height: 29px;
+}
+.card-content h2{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.card-content span{
+    color: var(--Dark-gray);
+    font-weight: 300;
+    font-size: 17.5px;
+}
+.card-content h3{
+    color: var(--Dark-gray);
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 17.5px;
+}
+hr{
+    color: hsl(0, 10%, 88%);
+}
+.statistics ul{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 10px 15px 13px 15px;
+    margin: 10px;
+}
+.statistics .stats-card__data{
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+    font-size: 1.1em;
+}
+.statistics .stats-card__details{
+    font-weight: 300;
+    font-size: 10px;
+    color: var(--Dark-gray);
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+@media only screen and (max-width: 749px) and (min-width: 550px) {
+    .main{
+        background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+       }
+}
+@media only screen and (max-width:550px){
+   .main{
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+   }
+}
